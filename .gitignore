@@ -53,4 +53,18 @@ build-iPhoneSimulator/
 .rvmrc
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
-# .rubocop-https?--*
+.rubocop-https?--*
+
+# Ignore all ide files from jetbrains
+.idea
+
+#Ignore files in the local
+/local_files
+# exclude everything that could belong in the instance of testsing like xml reports and screenshots
+/test_results/*.xml
+/test_results/*.html
+/test_results/*.json
+/test_results/screenshots/*.png
+/test_results/cucumber/*
+/test_results/.DS_Store
+/.DS_Store
