@@ -2,18 +2,19 @@
 Start Selenium-Cucumber-Ruby automation framework
 
 ## Setup
-1. Install Ruby 
-2. Install [Bundler](https://bundler.io/):
+1. Tap the `Use this Template` button and download the qa-automation-starter repo.
+2. Install Ruby 
+3. Install [Bundler](https://bundler.io/):
     - Used to manage dependencies in a gemfile.
         - `gem install bundler`
-3. cd into Whiskers repo
-4. Install Dependencies
+4. cd into qa-automation-starter repo
+5. Install Dependencies
    - Execute `bundler install`
-5. Download browser drivers
+6. Download browser drivers
     - Download the driver for your version of chrome from:
       - https://chromedriver.chromium.org/downloads
     - Once downloaded you will need add driver to your PATH 
-6. With Ruby, the dependencies, and Chromedriver installed you should be able to execute the example feature file
+7. With Ruby, the dependencies, and Chromedriver installed you should be able to execute the example feature file
 ## Executing a test:
 1. Via Command Line:
     - Since Cucumber is out test executor you can call the cucumber command from within the repo to execute all tests.
