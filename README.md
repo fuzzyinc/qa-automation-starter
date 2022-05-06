@@ -37,7 +37,7 @@ Macbooks with M1 chips use zshell terminals by default instead of bash terminals
 9. Install [Bundler](https://bundler.io/):
    - Used to manage dependencies in a gemfile.
       - `gem install bundler`
-10. Download the `qa-automation-starter` repo
+10. Tap the `Use this Template` to download the `qa-automation-starter` repo
 11. cd into `qa-automation-starter` repo
 12. Install Dependencies
     - Execute `bundler install`
