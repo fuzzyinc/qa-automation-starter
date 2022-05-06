@@ -4,10 +4,9 @@ require 'rubygems'
 require 'cucumber'
 require 'cucumber/rake/task'
 
-# The following are intended for CircleCI as they output xml for CircleCI's ingestion
-#
-# CRITICAL
-#
+
+# You can add rake tasks as needed here for running your automated tests.
+# The name of the task is found in this section Cucumber::Rake::Task.new(:name_of_task)
 Cucumber::Rake::Task.new(:example_test) do |t|
   t.cucumber_opts = '--tag "@example"
                      --format pretty BROWSER=chrome'
